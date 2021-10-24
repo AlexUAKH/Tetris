@@ -1,0 +1,24 @@
+<html lang="en">
+  <head>
+    <title> Tetris js game </title>
+    <style>
+      canvas {
+        background: black;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <button OnClick="controller.start();"> Start </button>
+      <button OnClick="controller.stop();"> Stop </button>
+      <span> Score: <span id="score"> 0 </span> </span>
+    </div>
+    <canvas width="10" height="10" id="canvas"></canvas>
+  </body>
+
+  
+  <script type="text/javascript" src="figures.js"></script>
+  <script type="text/javascript" src="canvas.js"></script>
+  <script type="text/javascript" src="controller.js"></script>
+  <script type="text/javascript" src="script.js"></script>
+</html>
